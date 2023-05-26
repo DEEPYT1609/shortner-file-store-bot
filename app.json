@@ -1,6 +1,6 @@
 {
-    "name": "Telegram Files Store Bot",
-    "description": "A Telegram Files Store Bot in Pyrogram by @KPSLink",
+    "name": "Telegram Files Store V2 Bot",
+    "description": "A Telegram Files Store Bot in Pyrogram by @KPSLinkV2",
     "keywords": [
         "telegram",
         "files",
@@ -8,8 +8,8 @@
         "bot"
     ],
     "repository": "https://github.com/Tamilupdates/KPS-File-Store-Bot",
-    "website": "https://telegram.dog/KPSLink",
-    "success_url": "https://telegram.me/KPSLinkGroup",
+    "website": "https://telegram.dog/KPSLinkV2",
+    "success_url": "https://telegram.me/KPSLinkV2Group",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org"
@@ -64,7 +64,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "basic"
+            "size": "Basic"
         }
     }
 }

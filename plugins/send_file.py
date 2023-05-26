@@ -15,7 +15,7 @@ async def reply_forward(message: Message, file_id: int):
         user = await get_user(user_id)
         await message.reply_text(
             f"**Here is Sharable Link of this file:**\n"
-            f"{await get_short_link(user, f'https://telegram.me/{Config.BOT_USERNAME}?start=KPSLink_{str_to_b64(str(file_id))}')}\n\n"
+            f"{await get_short_link(user, f'https://telegram.me/{Config.BOT_USERNAME}?start=KPSLinkV2_{str_to_b64(str(file_id))}')}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
             disable_web_page_preview=True, quote=True)
     except FloodWait as e:
